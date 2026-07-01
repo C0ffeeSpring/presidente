@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh; /* ocupa toda a tela */
+    background: linear-gradient(135deg, #000000, #3b7035); 
+    /* degrade azul elegante */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Imagem girando */
+.girando {
+    width: 300px;   /* tamanho mais equilibrado */
+    height: 300px;
+    display: block;
+    margin: 40px auto; /* centraliza horizontalmente */
+    animation: rodar 6s linear infinite; /* rotação suave */
+}
+
+@keyframes rodar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Título estilizado */
+h1 {
+    color: white;
+    font-size: 3rem; /* tamanho grande e proporcional */
+    text-align: center;
+    text-shadow: 2px 2px 5px black; /* sombra suave */
+    letter-spacing: 5px;
+}
+
+a{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 10px;
+    margin: 10px;
+}
