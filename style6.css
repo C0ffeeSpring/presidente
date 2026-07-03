@@ -1,0 +1,55 @@
+h3{
+    font-size: 50px;
+    text-align: center;
+      font-family: "Comic Sans MS", "Poppins", sans-serif;
+      color: rgb(16, 78, 16);
+}
+
+.form-group{
+    color: rgb(16, 78, 16);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.caixa {
+  background-color: #f9f9f9;      
+  padding: 20px;                  
+  border-radius: 10px;              
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  width: 300px;                     
+  margin: 50px auto;               
+  text-align: center;  
+  transition: 4s;             
+}
+.caixa input, .caixa button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+   cursor: pointer;
+}
+
+button:hover{
+    transition: 4s;
+    background-color: green;
+    color: white;
+}
+
+a{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Poppins", sans-serif;
+}
+
+a:hover{
+    transition: 2s;
+    color: rgb(75, 165, 42);
+    
+  
+}

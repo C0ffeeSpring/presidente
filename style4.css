@@ -12,11 +12,11 @@ body {
 
 /* Imagem girando */
 .girando {
-    width: 300px;   /* tamanho mais equilibrado */
+    width: 300px;   
     height: 300px;
     display: block;
-    margin: 40px auto; /* centraliza horizontalmente */
-    animation: rodar 6s linear infinite; /* rotação suave */
+    margin: 40px auto;
+    animation: rodar 6s linear infinite; 
 }
 
 @keyframes rodar {
@@ -24,12 +24,12 @@ body {
     to { transform: rotate(360deg); }
 }
 
-/* Título estilizado */
+
 h1 {
     color: white;
-    font-size: 3rem; /* tamanho grande e proporcional */
+    font-size: 3rem; 
     text-align: center;
-    text-shadow: 2px 2px 5px black; /* sombra suave */
+    text-shadow: 2px 2px 5px black;
     letter-spacing: 5px;
 }
 
